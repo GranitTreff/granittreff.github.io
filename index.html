@@ -1,0 +1,48 @@
+---
+title: GranitTreff Hagenberg
+hidemobiletitle: true
+---
+{% assign meetups = site.granittreff | sort: 'date' | reverse %}
+{% for meetup in meetups %}
+<div class="uk-card uk-card-default uk-dark uk-margin-medium-bottom">
+    <div class="uk-card-header">
+        <div uk-grid>
+            <div class="uk-width-expand@s">
+                <h2 class="uk-card-title uk-margin-remove-bottom">GranitTreff #{{meetup.number}}</h2>
+                <p class="uk-margin-remove-vertical">{% include formatdate.html date = meetup.date %} | {{meetup.time}}</p>
+            </div>
+            <p class="uk-width-auto@s">
+                <a href="{{ meetup.meetupevent }}" class="uk-width-expand uk-width-auto@s uk-button {% if meetup.pending %}uk-button-secondary{% else %}uk-button-default{% endif %}" target="_blank" rel="noreferrer">
+                    {% if meetup.pending %}
+                    Hier anmelden
+                    {% else %}
+                    Meetup-Event
+                    {% endif %}
+                </a>
+            </p>
+        </div>
+        <p class="uk-margin-remove-top@s">Host: {{meetup.host}}</p>
+    </div>
+    <div class="uk-card-body">
+        <div uk-grid class="uk-child-width-expand@m">
+            {% for talk in meetup.talks %}
+            <div class="uk-text-center">
+                <img class="uk-border-circle uk-box-shadow-large" src="{{ talk.image }}" alt="{{ talk.speaker }}" width="150" height="150">
+                <h3 class="uk-margin-small-top uk-margin-remove-bottom">{{ talk.speaker }}</h3>
+                <p class="uk-margin-remove-top">{{ talk.topic }}</p>
+                <ul class="uk-list">
+                    {% for link in talk.links %}
+                    <li class="uk-margin-remove-vertical"><a href="{{ link.url }}" target="_blank" rel="noreferrer">{{ link.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="uk-card-footer">
+        {% for link in meetup.links %}
+        <a href="{{ link.url }}" class="uk-button uk-button uk-button-secondary" target="_blank" rel="noreferrer">{{ link.name }}</a>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}

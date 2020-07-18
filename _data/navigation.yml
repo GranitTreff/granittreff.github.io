@@ -1,0 +1,18 @@
+- name: Home
+  url: /
+  external: false
+- name: Team
+  url: /team
+  external: false
+- name: Über uns
+  url: /about
+  external: false
+- name: Partner
+  url: /partners
+  external: false
+- name: Meetup
+  url: "https://www.meetup.com/de-DE/GranitTreff/"
+  external: true
+- name: YouTube
+  url: "https://www.youtube.com/channel/UCd-kXaq7DpeFOepwas6zV0w"
+  external: true

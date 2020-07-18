@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de" class="uk-background-secondary">
+<head>
+    <title>GranitTreff Hagenberg</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GranitTreff Hagenberg">
+    {% if page.url == '/' %}
+    <meta name="robots" content="index, nofollow">
+    {% else %}
+    <meta name="robots" content="noindex, nofollow">
+    {% endif %}
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="stylesheet" href="/css/uikit.min.css"/>
+    <link rel="stylesheet" href="/css/custom.css"/>
+    <script src="/js/uikit.min.js"></script>
+</head>
+<body>
+
+{% include navigation.html %}
+
+<main class="uk-container">
+{{ content }}
+</main>
+
+</body>
+</html>

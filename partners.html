@@ -1,0 +1,20 @@
+---
+title: Partner
+permalink: /partners
+background: true
+---
+<h2>Vielen Dank an unsere Partner!</h2>
+<div class="uk-grid-large uk-margin-medium-top" uk-grid>
+    {% for partner in site.data.partners %}
+    <div class="uk-text-center uk-width-1-2@s uk-width-1-3@l uk-flex uk-flex-column uk-flex-center">
+        <div>
+            <a href="{{partner.url}}" target="_blank" rel="noreferrer">
+                <img class="partner-image" src="{{ partner.image }}" alt="{{ partner.name }}">
+            </a>
+            {% if partner.description %}
+            <p class="uk-margin-margin-small-top uk-margin-remove-bottom">{{ partner.description }}</p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>

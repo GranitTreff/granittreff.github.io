@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h1 class="uk-light {% if page.hidemobiletitle %} uk-visible@s {% endif %}">{{ page.title }}</h1>
+{% if page.background %}
+<div class="uk-card uk-card-default uk-card-body uk-dark uk-margin-medium-bottom">
+{% endif %}
+{{ content }}
+{% if page.background %}
+</div>
+{% endif %}

@@ -1,0 +1,10 @@
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      hidemobiletitle: false
+
+collections:
+  granittreff:
