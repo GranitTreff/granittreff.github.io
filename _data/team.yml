@@ -1,14 +1,36 @@
-- name: Martin Ahrer
-  company: bluesource mobile solutions gmbh
-  image: /images/people/ahrer_martin.jpg
-- name: Markus Gierlinger
+#- name: Martin Ahrer
+#  company: bluesource mobile solutions gmbh
+#  image: /images/people/ahrer_martin.jpg
+#- name: Markus Gierlinger
+#  company: Dynatrace
+#  image: /images/people/gierlinger_markus.jpg
+#- name: Stefan Gusenbauer
+#  company: Dynatrace
+#  image: /images/people/gusenbauer_stefan.jpg
+- name: Karolina Heller
+  company: ""
+  image: /images/profile_placeholder.png
+- name: Daniel Kreuzer
   company: Dynatrace
-  image: /images/people/gierlinger_markus.jpg
-- name: Stefan Gusenbauer
+  image: /images/people/kreuzer_daniel.jpg
+- name: David Luftensteiner
   company: Dynatrace
-  image: /images/people/gusenbauer_stefan.jpg
+  image: /images/people/luftensteiner_david.png
+- name: Christian Neudorfer
+  company: bluesource - mobile solutions gmbh
+  image: /images/people/neudorfer_christian.jpg
 - name: Stefan Schöberl
+  company: Software Competence Center Hagenberg
   image: /images/people/schoeberl_stefan.jpg
-- name: Roland Wingelhofer
-  company: STIWA Group
-  image: /images/people/wingelhofer_roland.jpg
+- name: Markus Szöky
+  company: COUNT IT Group
+  image: /images/people/szoeky_markus.jpg
+- name: Stephan Winkler
+  company: ""
+  image: /images/profile_placeholder.png
+- name: Matthias Zwittag
+  company: ""
+  image: /images/profile_placeholder.png
+#- name: Roland Wingelhofer
+#  company: STIWA Group
+#  image: /images/people/wingelhofer_roland.jpg

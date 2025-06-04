@@ -16,3 +16,6 @@
 - name: YouTube
   url: "https://www.youtube.com/channel/UCd-kXaq7DpeFOepwas6zV0w"
   external: true
+- name: GitHub
+  url: "https://github.com/granittreff"
+  external: true

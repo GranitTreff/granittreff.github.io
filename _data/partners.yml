@@ -1,20 +1,19 @@
 - name: bluesource mobile solutions gmbh
-  image: /images/partners/bluesource.svg
+  image: /images/partners/bluesource.jpg
   url: "https://www.bluesource.at"
+- name: COUNT IT Group
+  image: /images/partners/count-it.png
+  url: "http://it.countit.at/"
 - name: Dynatrace
   image: /images/partners/dynatrace.png
   url: "https://www.dynatrace.com"
-- name: JetBrains
-  description: JetBrains IDE Lizenzen
-  image: /images/partners/jetbrains.png
-  url: "https://www.jetbrains.com"
 - name: SIWA Online GmbH
   description: Domain und E-Mail
   image: /images/partners/siwa.png
   url: "https://www.siwa.at"
-- name: STIWA Group
-  image: /images/partners/stiwa-group.png
-  url: "https://www.stiwa.com"
-- name: Unternehmensnetzwerk
-  image: /images/partners/unternehmensnetzwerk.png
-  url: "http://unswp.cms.countit.at"
+- name: Software Competence Center Hagengerg GmbH
+  image: /images/partners/scch.png
+  url: "https://www.scch.at/"
+- name: Softwarepark Hagenberg
+  image: /images/partners/softwarepark.jpg
+  url: "https://www.softwarepark.at/"

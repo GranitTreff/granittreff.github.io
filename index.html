@@ -21,7 +21,16 @@ hidemobiletitle: true
                 </a>
             </p>
         </div>
-        <p class="uk-margin-remove-top@s">Host: {{meetup.host}}</p>
+        <p class="uk-margin-remove-bottom">Host: {{meetup.host}}</p>
+        {% if meetup.location %}
+        <p class="uk-margin-remove-top">
+            {% if meetup.location.maps %}
+            <a href="{{meetup.location.maps}}" target="_blank" rel="noreferrer">{{meetup.location.address}}</a>
+            {% else %}
+            {{meetup.location.address}}
+            {% endif %}
+        </p>
+        {% endif %}
     </div>
     <div class="uk-card-body">
         <div uk-grid class="uk-child-width-expand@m">
