@@ -1,15 +1,6 @@
-#- name: Martin Ahrer
-#  company: bluesource mobile solutions gmbh
-#  image: /images/people/ahrer_martin.jpg
-#- name: Markus Gierlinger
-#  company: Dynatrace
-#  image: /images/people/gierlinger_markus.jpg
-#- name: Stefan Gusenbauer
-#  company: Dynatrace
-#  image: /images/people/gusenbauer_stefan.jpg
 - name: Karolina Heller
   company: ""
-  image: /images/profile_placeholder.png
+  image: /images/people/heller_karolina.png
 - name: Daniel Kreuzer
   company: Dynatrace
   image: /images/people/kreuzer_daniel.jpg
@@ -27,7 +18,7 @@
   image: /images/people/szoeky_markus.jpg
 - name: Stephan Winkler
   company: ""
-  image: /images/profile_placeholder.png
+  image: /images/people/winkler_stephan.jpg
 - name: Matthias Zwittag
   company: ""
   image: /images/profile_placeholder.png
