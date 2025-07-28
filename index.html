@@ -9,7 +9,7 @@ hidemobiletitle: true
         <div uk-grid>
             <div class="uk-width-expand@s">
                 <h2 class="uk-card-title uk-margin-remove-bottom">GranitTreff #{{meetup.number}}</h2>
-                <p class="uk-margin-remove-vertical">{% include formatdate.html date = meetup.date %} | {{meetup.time}}</p>
+                <p class="uk-margin-remove-vertical">{% include formatdate.html date = meetup.date %} | {{meetup.time}} {% if meetup.opendoors %} (Open doors: {{meetup.opendoors}}){% endif %}</p>
             </div>
             <p class="uk-width-auto@s">
                 <a href="{{ meetup.meetupevent }}" class="uk-width-expand uk-width-auto@s uk-button {% if meetup.pending %}uk-button-secondary{% else %}uk-button-default{% endif %}" target="_blank" rel="noreferrer">
